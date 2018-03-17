@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>homework-two</title>
+		<link rel="stylesheet" type="text/css" href="css-two.css">
+	</head>
+	<body>
+		<div class="div-1">
+			<input type="text" class="input" id="text">
+			<input type="button" value="检查"  onclick="js()"  >
+		</div>
+	</body>
+	<script type="text/javascript">
+		function js(){
+			var txt = document.getElementId("text");
+			var vle = txt.value;
+			var a = vle.split(' ');
+			
+			document.write(a);
+			}
+	</script>
+</html>
